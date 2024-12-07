@@ -66,7 +66,7 @@ const Navbar = () => {
             >
               <CloseOutlinedIcon />
             </button>
-            {["Home", "About Us", "Our Services"].map((link) => (
+            {["Home", "About Us", "Our Services","Contact Us","Our Clients"].map((link) => (
               <li
                 key={link}
                 className={`${
