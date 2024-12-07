@@ -40,7 +40,13 @@ const Navbar = () => {
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
         <Link href={"/"}>
           <h2 className="text-3xl">
-            <span className="text-rose-600">Lumination </span>India Infratech
+          <span>
+        <img 
+          src="/lumination-India-logo.png" 
+          alt="Lumination India Infratech Logo" 
+          className="h-12 w-auto"
+        />
+      </span>
           </h2>
         </Link>
 
@@ -60,7 +66,7 @@ const Navbar = () => {
             >
               <CloseOutlinedIcon />
             </button>
-            {["home", "About Us"].map((link) => (
+            {["Home", "About Us", "Our Services"].map((link) => (
               <li
                 key={link}
                 className={`${

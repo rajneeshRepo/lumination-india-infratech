@@ -9,7 +9,7 @@ const HomeSection = () => {
     >
       <div className="container px-5 md:px-16 mx-auto">
         <h1 className="capitalize flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
-          <p>Lumination India Infratech</p>
+          <p>Lumination <span className="company-title-color">India Infratech</span></p>
         </h1>
         <p className="text-lg leading-normal sm:leading-loose my-4 md:my-6">
           Honored with the Prestigious India 5000 Best MSME Award
